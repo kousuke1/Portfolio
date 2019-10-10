@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.title h1{
+    position: relative;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+    text-align: center;
+    padding-top:300px;
+    padding-bottom: 60px;
+    color:#F4FFFD;
+    text-shadow:5px 6px 9px #011936;
+    letter-spacing:7px;
+    
+}
+.title h2{
+    position: relative;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:60px;
+    text-align: center;
+    color:#F4FFFD;
+    text-shadow:5px 6px 9px #011936;
+    letter-spacing:7px;
+}
+
+.title img{
+    position: absolute;
+    text-align: center;
+    width:1519px;
+    height:935px;
+    
+}

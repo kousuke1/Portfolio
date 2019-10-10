@@ -3,7 +3,7 @@
     padding:0;
 }
 
-
+/*Title*/
 .title h1{
     position: relative;
     font-family: source-han-sans-japanese, sans-serif;
@@ -14,7 +14,7 @@
     padding-top:300px;
     padding-bottom: 60px;
     color:#F4FFFD;
-    text-shadow:5px 6px 9px #011936;
+    text-shadow:5px 6px 7px #010f1e;
     letter-spacing:7px;
     
 }
@@ -26,10 +26,9 @@
     font-size:60px;
     text-align: center;
     color:#F4FFFD;
-    text-shadow:5px 6px 9px #011936;
+    text-shadow:5px 6px 7px #010f1e;
     letter-spacing:7px;
 }
-
 .title img{
     position: absolute;
     text-align: center;
@@ -37,3 +36,137 @@
     height:935px;
     
 }
+
+
+/*Plofile*/
+.Plofile h2{
+    padding-top:700px;
+     font-family: source-han-sans-japanese, sans-serif;
+     font-weight: 200;
+     font-style: normal;
+     font-size:60px;
+     text-align: center;
+     color:#011936;
+    
+}
+.Plofile img{
+    padding-top:60px;
+    padding-left: 300px;
+    float:left;
+}
+ h3{
+     padding-top:70px;
+     padding-left: 750px;
+     font-family: source-han-sans-cjk-ja, sans-serif;
+     font-weight: 50;
+     font-style: normal;
+     font-size:39px;
+     color:#011936;
+}
+
+p{
+    padding-top:50px;
+     padding-left: 750px;
+    padding-bottom: 300px;
+     font-family: source-han-sans-cjk-ja, sans-serif;
+     font-weight: 100;
+     font-style: normal; 
+     font-size:20px;
+     color:#011936;
+    line-height:50px;
+}
+
+
+/*Potglafy*/
+.Photgraphy h2{
+     font-family: source-han-sans-japanese, sans-serif;
+     font-weight: 200;
+     font-style: normal;
+     font-size:60px;
+     text-align: center;
+     color:#011936;
+    padding-bottom: 70px;
+}
+#gallery {
+    margin: 0 auto;
+    overflow: hidden;
+}
+#gallery li {
+    list-style: none;
+    max-width: 300px;
+    padding: 5px;
+}
+#gallery li img {
+    list-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/*モーダル*/
+#Modal figure{
+  margin: 0;
+  display: none;
+　text-align: center;
+　font-family: source-han-sans-cjk-ja, sans-serif;
+　font-weight: 50;
+　font-style: normal;
+ font-size: 30px;
+color:#011936;
+ text-shadow:5px 6px 7px #010f1e;
+
+    
+}
+#Modal figure:target{
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+#Modal figure:target #overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  color: inherit;
+}
+#Modal figure:target img{
+  animation: fadein .5s;
+}
+@keyframes fadein{
+  0%{
+    transform: scale(0.2);
+    opacity: 0.2;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+/*Movie*/
+.Movie h2{
+    padding-top:200px;
+     font-family: source-han-sans-japanese, sans-serif;
+     font-weight: 200;
+     font-style: normal;
+     font-size:60px;
+     text-align: center;
+     color:#011936;
+    
+}
+ 

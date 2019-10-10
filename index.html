@@ -6,6 +6,18 @@
      <link rel="stylesheet" href="css/index.css">
       <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'igr6gbm',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 <script>
   (function(d) {
     var config = {
@@ -17,10 +29,12 @@
   })(document);
 </script>
 
+
 </head>
 <body>
+
  <!---titleだよ～--->
- <div class ="title">
+    <div class ="title">
    <div class="slide">
      <img src="img/fireflower.png" alt="花火">
      <img src="img/singo.jpg" alt="信号">
@@ -32,6 +46,250 @@
       <h2>Portfolio</h2>
     </div>
     
+ <!---Plofileだーよー--->
+    <div class="Plofile">
+        <h2>Plofile</h2>
+        <img src="img/kaoo.jpg" alt="kao">
+        <h3>濵本&nbsp;&nbsp;考亮</h3>
+        <p>大阪府八尾市生まれ<br>
+大阪市立工芸高校で写真と映像を学び芸術の道を志す。<br>
+大阪芸術大学アートサイエンス学科1期生として入学し、<br>
+映像、Unity、WebDesignを学ぶ<br>
+ライフイズテック株式会社でのインターンとして<br>
+中高生にITを教える講師として活動し<br>
+ファシリテーション能力やITに関する技術を<br>
+多く学んだ。</p>
+        
+    </div>
     
+ <!---こっからPhotgraphy--->
+    <div class="Photgraphy">
+         <h2>Photgraphy</h2>
+         <ul id="gallery" >
+         
+         <!---1--->
+          <div id="Modal">
+                  <a href="#figure"><li class="item"><img src="img/1.jpeg"></li></a>
+              <figure id="figure">
+            <a id="overlay" href="#overlay">
+              <figcaption>「閃光」</figcaption>
+              <img src="img/1.jpeg">
+            </a>
+              </figure>
+         </div>
+         
+         <!---2--->
+          <div id="Modal">
+                  <a href="#figure2"><li class="item"><img src="img/2.jpg"></li></a>
+              <figure id="figure2">
+            <a id="overlay" href="#overlay">
+              <figcaption>「鏡面」</figcaption>
+              <img src="img/2.jpg">
+            </a>
+              </figure>
+         </div>
+
+         <!---3--->              
+          <div id="Modal">
+                  <a href="#figure3"><li class="item"><img src="img/3.jpg"></li></a>
+              <figure id="figure3">
+            <a id="overlay" href="#overlay">
+              <figcaption>「乙目」</figcaption>
+              <img src="img/3.jpg">
+            </a>
+              </figure>
+         </div>
+        
+         <!---4--->
+          <div id="Modal">
+                  <a href="#figure4"><li class="item"><img src="img/4.jpeg"></li></a>
+              <figure id="figure4">
+            <a id="overlay" href="#overlay">
+              <figcaption>「華」</figcaption>
+              <img src="img/4.jpeg">
+            </a>
+              </figure>
+         </div>        
+        
+         <!---5--->
+           <div id="Modal">
+                  <a href="#figure5"><li class="item"><img src="img/5.jpg"></li></a>
+              <figure id="figure5">
+            <a id="overlay" href="#overlay">
+              <figcaption>「ちあき」</figcaption>
+              <img src="img/5.jpg">
+            </a>
+              </figure>
+             </div>       
+        
+         <!---6--->
+            <div id="Modal">
+                  <a href="#figure6"><li class="item"><img src="img/6.jpg"></li></a>
+              <figure id="figure6">
+            <a id="overlay" href="#overlay">
+              <figcaption>「寒の尽き」</figcaption>
+              <img src="img/6.jpg">
+            </a>
+              </figure>
+             </div>       
+             
+         <!---7--->
+            <div id="Modal">
+                  <a href="#figure7"><li class="item"><img src="img/7.jpg"></li></a>
+              <figure id="figure7">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢夜の帳｣</figcaption>
+              <img src="img/7.jpg">
+            </a>
+              </figure>
+             </div> 
+        
+         <!---8--->
+             <div id="Modal">
+                  <a href="#figure8"><li class="item"><img src="img/8.png"></li></a>
+              <figure id="figure8">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢マンボウ｣架空CDジャケット</figcaption>
+              <img src="img/8.png">
+            </a>
+              </figure>
+             </div>         
+               
+         <!---9--->
+            <div id="Modal">
+                  <a href="#figure9"><li class="item"><img src="img/9.jpg"></li></a>
+              <figure id="figure9">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢規則性の不規則｣</figcaption>
+              <img src="img/9.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+         <!---10--->
+            <div id="Modal">
+                  <a href="#figure10"><li class="item"><img src="img/10.jpg"></li></a>
+              <figure id="figure10">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢赤空｣</figcaption>
+              <img src="img/10.jpg">
+            </a>
+              </figure>
+             </div>      
+             
+          <!---11---->
+            <div id="Modal">
+                  <a href="#figure11"><li class="item"><img src="img/11.png"></li></a>
+              <figure id="figure11">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢龍神｣</figcaption>
+              <img src="img/11.png">
+            </a>
+              </figure>
+             </div>  
+         
+
+        <!---12--->
+            <div id="Modal">
+                  <a href="#figure12"><li class="item"><img src="img/12.png"></li></a>
+              <figure id="figure12">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢水龍｣</figcaption>
+              <img src="img/12.png">
+            </a>
+              </figure>
+             </div> 
+
+        <!---13--->
+            <div id="Modal">
+                  <a href="#figure13"><li class="item"><img src="img/13.jpg"></li></a>
+              <figure id="figure13">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢息吹｣</figcaption>
+              <img src="img/13.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---14--->
+            <div id="Modal">
+                  <a href="#figure14"><li class="item"><img src="img/14.jpg"></li></a>
+              <figure id="figure14">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢無題｣</figcaption>
+              <img src="img/14.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---15--->
+            <div id="Modal">
+                  <a href="#figure15"><li class="item"><img src="img/15.jpg"></li></a>
+              <figure id="figure15">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢後悔はあるか｣</figcaption>
+              <img src="img/15.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---16--->
+            <div id="Modal">
+                  <a href="#figure16"><li class="item"><img src="img/16.jpg"></li></a>
+              <figure id="figure16">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢都会の喧騒｣</figcaption>
+              <img src="img/16.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---17--->
+            <div id="Modal">
+                  <a href="#figure17"><li class="item"><img src="img/17.jpg"></li></a>
+              <figure id="figure17">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢荒廃｣</figcaption>
+              <img src="img/17.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---18--->
+            <div id="Modal">
+                  <a href="#figure18"><li class="item"><img src="img/18.jpg"></li></a>
+              <figure id="figure18">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢収束｣</figcaption>
+              <img src="img/18.jpg">
+            </a>
+              </figure>
+             </div> 
+             
+        <!---19--->
+            <div id="Modal">
+                  <a href="#figure19"><li class="item"><img src="img/19.jpg"></li></a>
+              <figure id="figure19">
+            <a id="overlay" href="#overlay">
+              <figcaption>｢恋の形｣</figcaption>
+              <img src="img/19.jpg">
+            </a>
+              </figure>
+             </div>
+        </ul>
+        
+    </div>
+    
+ <!---ここからMovie--->
+  <div class="Movie">
+    <h2>Movie's</h2>
+      
+      
+  </div>
+   
+    
+    
+    
+    <script src = "js/jquery.swipebox.js"> </script>
 </body>
 </html>
